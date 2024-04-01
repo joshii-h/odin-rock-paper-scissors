@@ -31,29 +31,50 @@
     </div>
     <div class="game-section">
         <h2>Play against your Computer!</h2>
+        <div class="health-player-pc">
+            <div id="player-health">
+                <h3>Your health</h3>
+                <img class="heart" id="player_1" src="heart.png" alt="" >
+                <img class="heart" id="player_2" src="heart.png" alt="" >
+                <img class="heart" id="player_3" src="heart.png" alt="" >
+                <img class="heart" id="player_4" src="heart.png" alt="" >
+                <img class="heart" id="player_5" src="heart.png" alt="" >
+            </div>
+            <div id="pc-health">
+                <h3>Pc health</h3>
+                <img class="heart" id="pc_1" src="heart.png" alt="" >
+                <img class="heart" id="pc_2" src="heart.png" alt="" >
+                <img class="heart" id="pc_3" src="heart.png" alt="" >
+                <img class="heart" id="pc_4" src="heart.png" alt="" >
+                <img class="heart" id="pc_5" src="heart.png" alt="" >
+            </div>
+        </div>
         <div class="game">
         
             <div class="small-part">
-                <a href="">
-
+                <a onclick="playerSelection('rock')">
                     <img src="Rocks.png" alt="Rock">
                     <p>Rock</p>
                 </a>
             </div>
             <div class="small-part">
-                <a href="">
-
+                <a onclick="playerSelection('paper')">                
                     <img src="paper.png" alt="paper">
                     <p>Paper</p>
                 </a>
             </div>
             <div class="small-part">
-                <a href="">
+                <a onclick="playerSelection('scissor')">
                     <img src="scissors.png" alt="scissor">
                     <p>Scissor</p>
                 </a>
             </div>
         </div>
     </div>
-    </body>
+    <div class="restart">
+        <button onclick="restart()">
+            <h3> 🔄 RESTART! 🔄 </h3>
+        </button>
+    </div>
+</body>
 </html>

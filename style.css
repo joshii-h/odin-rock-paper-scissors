@@ -100,23 +100,40 @@ a:hover{
     align-items: end;
     justify-content: center;
 }
-.small-part { 
-    border-color: black;
-    border-radius: 0.5em;
-    border-style: solid;
-    width: 170x;
+.small-part{
+    width: 170px;
     height: 200px;
+    border: 0.3em solid black;
+    border-radius: 0.5em;
     display: flex;
     align-items: end;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .small-part a > img {
     width: 150px;
     max-height: 150px;
 }
-
 .small-part a > p {
     text-align: center;
     color: black;
+}
+.small-part a:hover {
     text-decoration: none;
+}
+.health-player-pc {
+    display: flex;
+    justify-content: space-between;   
+}
+.heart{
+    width: 48px;
+}
+.restart {
+    background-color: var(--main-color);
+    text-align: center;
+    padding:1.5em 0;
+}
+.restart > button {
+    background-color: var(--sec-color);
+    border: 0.3em solid black;
+    border-radius: 0.5em;
 }
