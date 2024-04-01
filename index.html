@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+        <div class="title">
+        <h1 id="title">Rock Paper Scissors</h1>
+        <label for="title">by Joshii</label>
+    </div>
+    <div class="rules">
+        <div class="rule-expander">
+            <h2 id="rule-set">You don't know Rock paper Scissors?</h2>
+            <label for="rule-set"> <a id="label-rules" onclick="expandRules()">expand rules...</a></label>
+        </div>
+        <div class="toggler-rules" id="js-rule-selector">
+            <h3 id="rps-title">Rock paper scissors</h3>
+            <label for="rps-title">Hand game for two players</label>
+            <div class="description">
+                <p>
+                    Rock paper scissors is an intransitive hand game, usually played between two people, in which each player simultaneously forms one of three shapes with an outstretched hand. These shapes are "rock", "paper", and "scissors".
+                </p>
+                <a href="https://en.wikipedia.org/wiki/Rock_paper_scissors">Wikipedia</a>
+            </div>
+            <a onclick="closeRules()">Close [x]</a>
+        </div>
+    </div>
+    <div class="game-section">
+        <h2>Play against your Computer!</h2>
+        <div class="game">
+        
+            <div class="small-part">
+                <a href="">
+
+                    <img src="Rocks.png" alt="Rock">
+                    <p>Rock</p>
+                </a>
+            </div>
+            <div class="small-part">
+                <a href="">
+
+                    <img src="paper.png" alt="paper">
+                    <p>Paper</p>
+                </a>
+            </div>
+            <div class="small-part">
+                <a href="">
+                    <img src="scissors.png" alt="scissor">
+                    <p>Scissor</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    </body>
+</html>

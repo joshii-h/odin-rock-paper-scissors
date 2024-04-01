@@ -1,0 +1,122 @@
+:root {
+    --main-color: #8294C4;
+    --sec-color: #ACB1D6;
+    --third-color: #DBDFEA;
+    --fourth-color: #FFEAD2;
+}
+
+* {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+*::-webkit-scrollbar {
+    display: none;
+    /* Chromium browsers and Safari*/
+}
+
+body {
+    background-image: url(background.gif);
+    background-size: cover;
+
+    margin: auto;
+    max-width: 90em;
+}
+
+body > * {
+    padding: 0.5em 2.5em;
+    margin: auto;
+}
+#title {
+    margin: 0;
+    padding: 0;
+    color: var(--main-color);
+}
+.title {
+    padding: 2em;
+    color: var(--sec-color);
+    background-color: var(--third-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+}
+.rules {
+    background-color: var(--fourth-color);
+    display: flex;
+    flex-direction: column;
+}
+.rules > h3, label {
+    margin: 0;
+    padding: 0;
+}
+.rule-expander{
+    display: flex;
+    align-items: baseline;
+}
+.rule-expander > label a{
+    margin-left: 1em;
+    text-decoration: none;
+}
+a{
+    color: var(--main-color);
+}
+#label-rules:hover,
+a:hover{
+    text-decoration: underline;
+}
+
+.description {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.toggler-rules {
+    display: none;
+}
+.toggler-rules > h3, label{
+    margin: 0;
+    padding: 0;
+}
+.game-section{
+    background-color: var(--sec-color);
+    display: flex;
+    flex-direction: column;
+}
+.game-section >h2 {
+    margin: 0.5em auto;
+}
+.small-part > p {
+    max-width: 200px;
+}
+.game{
+    display: flex;
+    margin-top: 2em;
+    gap: 4em;
+    align-items: end;
+    justify-content: center;
+}
+.small-part { 
+    border-color: black;
+    border-radius: 0.5em;
+    border-style: solid;
+    width: 170x;
+    height: 200px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.small-part a > img {
+    width: 150px;
+    max-height: 150px;
+}
+
+.small-part a > p {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
