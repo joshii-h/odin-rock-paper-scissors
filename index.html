@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-        <div class="title">
+    <div class="title">
         <h1 id="title">Rock Paper Scissors</h1>
         <label for="title">by Joshii</label>
     </div>
@@ -16,6 +16,11 @@
         <div class="rule-expander">
             <h2 id="rule-set">You don't know Rock paper Scissors?</h2>
             <label for="rule-set"> <a id="label-rules" onclick="expandRules()">expand rules...</a></label>
+            <embed src="./tell-me-the-truth-260010.mp3" loop="true" autostart="true" height="0">
+                <audio id="myAudio" controls autoplay>
+                    <source src="./tell-me-the-truth-260010.mp3" type="audio/mpeg">
+                    Your browser does not support the audio element.
+                </audio>
         </div>
         <div class="toggler-rules" id="js-rule-selector">
             <h3 id="rps-title">Rock paper scissors</h3>

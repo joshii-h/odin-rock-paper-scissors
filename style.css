@@ -137,3 +137,9 @@ a:hover{
     border: 0.3em solid black;
     border-radius: 0.5em;
 }
+
+#myAudio {
+    max-width: 8em;
+    margin: auto;
+    
+}

@@ -1,6 +1,7 @@
 var healthPlayer    =   5
 var healthPC        =   5
 
+
 function expandRules() {
     var rulesBox = document.getElementById("js-rule-selector")
     rulesBox.style.display = "block";
